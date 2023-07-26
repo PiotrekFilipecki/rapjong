@@ -6,7 +6,8 @@
 
 body, html {
     height: 100%;
-    background-image: url('/public/images/poketheme.jpg');
+    background-color: #4d3d7e;
+    /* background-image: url('/public/images/poketheme.jpg'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

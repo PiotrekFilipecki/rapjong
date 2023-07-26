@@ -3,12 +3,12 @@ import './App.css';
 import Card from './components/Card/Card.js'
 
 const initialCards = [
-  { "src": "/images/bulbasaur.png", matched: false },
-  { "src": "/images/butterfree.png", matched: false },
-  { "src": "/images/charmander.png", matched: false },
-  { "src": "/images/pidgeotto.png", matched: false },
-  { "src": "/images/pikachu.png", matched: false },
-  { "src": "/images/squirtle.png", matched: false },
+  { "src": "/images/biggie.png", matched: false },
+  { "src": "/images/carti.png", matched: false },
+  { "src": "/images/fifty.png", matched: false },
+  { "src": "/images/sentino.png", matched: false },
+  { "src": "/images/wiz.png", matched: false },
+  { "src": "/images/thug.png", matched: false },
 ];
 
 function App() {
@@ -82,7 +82,7 @@ function App() {
 
   return (
     <div className='container'>
-      <button onClick={shuffleCards}>New Game</button>
+      <button onClick={shuffleCards}>Zacznij Grę</button>
       <div className="grid">
         {cards.map(card => (
           <Card
@@ -95,7 +95,7 @@ function App() {
           />
         ))}
       </div>
-      <p>Turns: {turn}</p>
+      <p>Kliknięcia: {turn}</p>
     </div>
   );
 }
